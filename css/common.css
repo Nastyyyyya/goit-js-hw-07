@@ -1,0 +1,238 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+body {
+  font-family: Montserrat;
+}
+
+button {
+  font-family: Montserrat;
+  background-color: #4e75ff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 8px 16px 8px 16px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #6c8cff;
+}
+
+/* -------------------------Styles for first task----------------------- */
+h2 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+  margin-bottom: 16px;
+}
+
+.item ul {
+  gap: 8px;
+}
+
+.item {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+#categories {
+  font-family: Montserrat;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background-color: #f6f6fe;
+}
+
+#categories ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.item ul li {
+  border: 1px solid #555;
+  border-radius: 5px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  width: 100%;
+  gap: 8px;
+}
+
+/* ------------------------------------------------------------------ */
+
+/* ----------------------Styles for second task------------------------- */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.gallery-item {
+  flex-basis: calc(33.333% - 20px);
+  box-sizing: border-box;
+}
+
+.gallery-image {
+  width: 100%;
+  height: 300px;
+  display: block;
+  object-fit: cover;
+}
+
+/* ----------------------------------------------------------------- */
+
+/* ----------------------Styles for third task------------------------- */
+
+input {
+  width: 360px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  margin-bottom: 16px;
+}
+
+#name-input {
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+}
+
+#name-output,
+h1 {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+/* ----------------------------------------------------------------- */
+
+/* ----------------------Styles for forth task------------------------- */
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 300px;
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+}
+
+.login-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.login-form input {
+  padding: 10px;
+  border: 1px solid #808080;
+  border-radius: 5px;
+}
+
+.login-form button {
+  width: 86px;
+  height: 40px;
+}
+
+/* ----------------------------------------------------------------- */
+
+/* ----------------------Styles for fifth task------------------------- */
+
+.widget {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.widget p {
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+}
+/* ----------------------------------------------------------------- */
+
+/* ----------------------Styles for sixth task------------------------- */
+#controls {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin-bottom: 16px;
+  padding: 32px;
+  gap: 16px;
+}
+
+button[data-destroy] {
+  background-color: #ff4e4e;
+}
+
+button[data-destroy]:hover {
+  background-color: #ff7070;
+}
+
+#boxes {
+  padding: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 44px;
+}
+
+#controls input {
+  text-align: center;
+}
+
+/* ----------------------------------------------------------------- */
